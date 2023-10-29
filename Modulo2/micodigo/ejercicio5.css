@@ -1,0 +1,33 @@
+.semaforo {
+    width: 100px;
+    height: 250px;
+    background-color: #5a5a5a;
+    border: 5px solid #000000;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.luz {
+    width: 80px;
+    height: 80px;
+    border-radius: 90%;
+    margin: 10px auto;
+}
+
+.luz.roja {
+    background: #a30101;
+}
+
+.luz.amarilla {
+    background: #b6b600;
+}
+
+.luz.verde {
+    background: #01ad01;
+}
+
+.encendida {
+    box-shadow: 0 0 20px #fff;
+}
